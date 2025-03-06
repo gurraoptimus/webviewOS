@@ -19,7 +19,7 @@ struct WebView: UIViewRepresentable {
 struct ContentView: View {
     var body: some View {
         // Example: Load a website URL in the WebView
-        WebView(url: URL(string: "https://gurraoptimus.github.dev/webviewOS")!)
+        WebView(url: URL(string: "https://github.com/gurraoptimus/webviewOS")!)
             .edgesIgnoringSafeArea(.all) // Make sure it covers the entire screen
     }
 }
