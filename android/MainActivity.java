@@ -1,4 +1,4 @@
-package com.example.webviewapp;
+package android;
 
 import android.os.Bundle;
 import android.webkit.WebSettings;
