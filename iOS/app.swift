@@ -13,7 +13,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         self.view.addSubview(webView)
 
         // Load a URL
-        if let url = URL(string: "https://www.example.com") {
+        if let url = URL(string: "https://www.gurraoptimus.se") {
             let request = URLRequest(url: url)
             webView.load(request)
         }

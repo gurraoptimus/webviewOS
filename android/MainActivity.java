@@ -1,4 +1,4 @@
-package android;
+package com.example.webviewapp;
 
 import android.os.Bundle;
 import android.webkit.WebSettings;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("https://www.example.com");
+        myWebView.loadUrl("https://www.gurraoptimus.se");
     }
 
     @Override
